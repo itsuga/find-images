@@ -32,7 +32,7 @@ function pre($arr){
 	
 	if( !empty($_POST['submit']) || !empty($_GET['s']) ) {
 	  $url = $search;
-	  $max_img = (empty($_POST['submit'])) ? '10' : $_POST['max_img'] ;
+	  $max_img = (empty($_POST['submit'])) ? '25' : $_POST['max_img'] ;
 	  // get DOM from URL or file
 	  $html = file_get_html($url);
 
